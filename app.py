@@ -74,7 +74,14 @@ df= pd.read_csv("./csvdata/all_data.csv")
 
 app.layout = html.Div([
    
-    html.H1("Stock Price Analysis Dashboard", style={"textAlign": "center"}),
+    html.H1("Cryptocurrency Price Analysis Dashboard", style={"textAlign": "center"}),
+
+    # Personal Information Section
+    html.Div([
+        html.P([html.B("Developed by: "), "Cong-Dat Le"]),
+        html.P([html.B("Student ID: "), "20120454"]),
+        html.P([html.B("GitHub: "), html.A("Dat-TG", href="https://github.com/Dat-TG")])
+    ], style={"border": "1px solid #000", "padding": "10px", "marginBottom": "50px", "textAlign": "center"}),
    
     dcc.Tabs(id="tabs", children=[
        

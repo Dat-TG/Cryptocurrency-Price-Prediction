@@ -77,6 +77,8 @@ The project is inspired by a [tutorial on stock price prediction](https://data-f
 
 ## Deployment
 
+The project is deployed on [Render](https://render.com/) and can be accessed at [https://cryptocurrency-price-prediction.onrender.com/](https://cryptocurrency-price-prediction.onrender.com/).
+
 To deploy the application to Render:
 
 1. Ensure your project contains `requirements.txt`.

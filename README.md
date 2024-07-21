@@ -4,6 +4,8 @@
 
 This project is a web application for predicting cryptocurrency prices using LSTM models. The dashboard is built using Plotly Dash and provides visualization of actual and predicted closing prices for Bitcoin (BTC-USD), Ethereum (ETH-USD), and Cardano (ADA-USD).
 
+Demo video here: [https://youtu.be/6Wz7xLmob4k?si=WuhEe0vOHSVZTMbm](https://youtu.be/6Wz7xLmob4k?si=WuhEe0vOHSVZTMbm)
+
 The project is inspired by a [tutorial on stock price prediction](https://data-flair.training/blogs/stock-price-prediction-machine-learning-project-in-python/) by Data Flair.
 
 ## Student Information
